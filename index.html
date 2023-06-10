@@ -5,28 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3>Header Logo</h3>
+    <div>
+    <div class="hero" style="padding: 20px;">
+    <h3 class="header">Header Logo</h3>
     <ul>
-        <li>header link one</li>
-        <li>header link two</li>
-        <li>header link three</li>
+        <li><a>header link</a></li>
+        <li><a>header link</a></li>
+        <li><a>header link</a></li>
     </ul>
-    <h1>This website is awesome</h1>
-    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-    <button>Sign up</button>
-    <div>this is a placeholder for an image</div>
-    <h2>Some random information.</h2>
-    <p>this is some subtext under an illustration or image</p>
-    <p>this is some subtext under an illustration or image</p>
-    <p>this is some subtext under an illustration or image</p>
-    <p>this is some subtext under an illustration or image</p>
+    </div>
+    
+    <div class="hero" style="gap: 40px;padding: 20px;">
+        <div style="flex: 0 1 380px;">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button>Sign up</button>
+        </div>
+        <div style="flex: 0 1 380px; justify-content: center; display: flex;background-color: gray; align-self: stretch; align-items: center; color: #F9FAF8;">this is a placeholder for an image</div>
+    </div>
+
+
+    <h2 style="text-align: center; font-weight: 800; font-size: 36px; margin: 40px 0 ;">Some random information.</h2>
+    
+    <div style="display: flex; justify-content: center; gap: 10px;text-align: center; margin-bottom: 40px;">
+        <div style="display: flex; flex-direction: column;flex: 0 1 150px; ">
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div style="display: flex; flex-direction: column;flex: 0 1 150px">
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div style="display: flex; flex-direction: column;flex: 0 1 150px">
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div style="display: flex; flex-direction: column;flex: 0 1 150px">
+            <div class="box"></div>
+            <p>this is some subtext under an illustration or image</p>
+        </div>
+    </div>
+
+
     <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All Iknow is that it looks nice.</p>
     <h3>-Thor, God of Thunder</h3>
     <h3>Call to action! It's time!</h3>
     <p>Sign up for our product by clicking that button right over there!</p>
     <button>Sign up</button>
-    <p>Copyright © The Odin Project 2023</p>
+    </div>
+    <p class="footer">Copyright © The Odin Project 2023</p>
 </body>
 </html>
