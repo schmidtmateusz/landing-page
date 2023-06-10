@@ -53,3 +53,10 @@ ul {
     box-sizing: border-box;
     border-radius: 20px;
 }
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 8px;
+}
